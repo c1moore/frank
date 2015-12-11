@@ -14,6 +14,12 @@
 		D5506FA91C19D2E900BAB5B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5506FA71C19D2E900BAB5B8 /* LaunchScreen.storyboard */; };
 		D5506FB41C19D2E900BAB5B8 /* frankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5506FB31C19D2E900BAB5B8 /* frankTests.swift */; };
 		D5506FBF1C19D2E900BAB5B8 /* frankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5506FBE1C19D2E900BAB5B8 /* frankUITests.swift */; };
+		D5506FCE1C19E77700BAB5B8 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5506FCD1C19E77700BAB5B8 /* FontAwesome.otf */; };
+		D5506FD01C19FD1700BAB5B8 /* frankTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5506FCF1C19FD1700BAB5B8 /* frankTabBarController.swift */; };
+		D5506FD21C1B12DB00BAB5B8 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5506FD11C1B12DB00BAB5B8 /* ArticleCell.swift */; };
+		D5506FD41C1B33D200BAB5B8 /* ArticleFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5506FD31C1B33D200BAB5B8 /* ArticleFetcher.swift */; };
+		D5506FD61C1B458E00BAB5B8 /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5506FD51C1B458E00BAB5B8 /* ArticleTableViewController.swift */; };
+		D5506FD81C1B4CF300BAB5B8 /* frankArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5506FD71C1B4CF300BAB5B8 /* frankArticle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		D5506FBA1C19D2E900BAB5B8 /* frankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = frankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5506FBE1C19D2E900BAB5B8 /* frankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frankUITests.swift; sourceTree = "<group>"; };
 		D5506FC01C19D2E900BAB5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5506FCD1C19E77700BAB5B8 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		D5506FCF1C19FD1700BAB5B8 /* frankTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = frankTabBarController.swift; sourceTree = "<group>"; };
+		D5506FD11C1B12DB00BAB5B8 /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		D5506FD31C1B33D200BAB5B8 /* ArticleFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleFetcher.swift; sourceTree = "<group>"; };
+		D5506FD51C1B458E00BAB5B8 /* ArticleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
+		D5506FD71C1B4CF300BAB5B8 /* frankArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = frankArticle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +112,13 @@
 				D5506F9E1C19D2E900BAB5B8 /* AppDelegate.swift */,
 				D5506FA01C19D2E900BAB5B8 /* ViewController.swift */,
 				D5506FA21C19D2E900BAB5B8 /* Main.storyboard */,
+				D5506FD51C1B458E00BAB5B8 /* ArticleTableViewController.swift */,
+				D5506FD11C1B12DB00BAB5B8 /* ArticleCell.swift */,
+				D5506FD31C1B33D200BAB5B8 /* ArticleFetcher.swift */,
+				D5506FD71C1B4CF300BAB5B8 /* frankArticle.swift */,
+				D5506FCF1C19FD1700BAB5B8 /* frankTabBarController.swift */,
 				D5506FA51C19D2E900BAB5B8 /* Assets.xcassets */,
+				D5506FCC1C19E6E200BAB5B8 /* Fonts */,
 				D5506FA71C19D2E900BAB5B8 /* LaunchScreen.storyboard */,
 				D5506FAA1C19D2E900BAB5B8 /* Info.plist */,
 			);
@@ -123,6 +141,14 @@
 				D5506FC01C19D2E900BAB5B8 /* Info.plist */,
 			);
 			path = frankUITests;
+			sourceTree = "<group>";
+		};
+		D5506FCC1C19E6E200BAB5B8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D5506FCD1C19E77700BAB5B8 /* FontAwesome.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +258,7 @@
 			files = (
 				D5506FA91C19D2E900BAB5B8 /* LaunchScreen.storyboard in Resources */,
 				D5506FA61C19D2E900BAB5B8 /* Assets.xcassets in Resources */,
+				D5506FCE1C19E77700BAB5B8 /* FontAwesome.otf in Resources */,
 				D5506FA41C19D2E900BAB5B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5506FD21C1B12DB00BAB5B8 /* ArticleCell.swift in Sources */,
+				D5506FD81C1B4CF300BAB5B8 /* frankArticle.swift in Sources */,
 				D5506FA11C19D2E900BAB5B8 /* ViewController.swift in Sources */,
+				D5506FD41C1B33D200BAB5B8 /* ArticleFetcher.swift in Sources */,
+				D5506FD01C19FD1700BAB5B8 /* frankTabBarController.swift in Sources */,
+				D5506FD61C1B458E00BAB5B8 /* ArticleTableViewController.swift in Sources */,
 				D5506F9F1C19D2E900BAB5B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
